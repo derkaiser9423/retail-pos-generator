@@ -244,8 +244,8 @@ GIT_IGNORED_FILES = [
 ]
 
 # Control auto-commit behavior
-AUTO_COMMIT_ENABLED = False     # Enable/disable auto-commits
-AUTO_PUSH_ENABLED = False       # Enable/disable auto-push to GitHub
+AUTO_COMMIT_ENABLED = True     # Enable/disable auto-commits
+AUTO_PUSH_ENABLED = True       # Enable/disable auto-push to GitHub
 
 # Commit frequency
 COMMIT_FREQUENCY = 'always'  # 'always', 'hourly', or 'daily'
