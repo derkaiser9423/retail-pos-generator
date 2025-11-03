@@ -19,12 +19,12 @@ jobs:
     
     steps:
     - name: 📥 Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0  # Full history for proper commits
     
     - name: 🐍 Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
         cache: 'pip'
@@ -44,47 +44,48 @@ jobs:
         fi
     
     - name: 📊 Generate Categories
-      run: python wrapper_with_git.py 01_generate_categories.py
+      run: python 01_generate_categories.py
       continue-on-error: true
     
     - name: 🏢 Generate Suppliers
-      run: python wrapper_with_git.py 02_generate_suppliers.py
+      run: python 02_generate_suppliers.py
       continue-on-error: true
     
     - name: 👥 Generate Staff
-      run: python wrapper_with_git.py 03_generate_staff.py
+      run: python 03_generate_staff.py
       continue-on-error: true
     
     - name: 🖥️ Generate Machines
-      run: python wrapper_with_git.py 04_generate_machines.py
+      run: python 04_generate_machines.py
       continue-on-error: true
     
     - name: 💳 Generate Payment Methods
-      run: python wrapper_with_git.py 05_generate_payment_methods.py
+      run: python 05_generate_payment_methods.py
       continue-on-error: true
     
     - name: 📋 Generate Transaction Types
-      run: python wrapper_with_git.py 06_generate_transaction_types.py
+      run: python 06_generate_transaction_types.py
       continue-on-error: true
     
     - name: 🏷️ Generate Product Groups
-      run: python wrapper_with_git.py 07_generate_product_groups.py
+      run: python 07_generate_product_groups.py
       continue-on-error: true
     
     - name: 📦 Generate Products
-      run: python wrapper_with_git.py 08_generate_products.py
+      run: python 08_generate_products.py
       continue-on-error: true
     
     - name: 🧾 Generate Transaction Headers
-      run: python wrapper_with_git.py 09_generate_transaction_headers.py
+      run: python 09_generate_transaction_headers.py
       continue-on-error: true
     
     - name: 📝 Generate Transaction Lines
-      run: python wrapper_with_git.py 10_generate_transaction_lines.py
+      run: python 10_generate_transaction_lines.py
       continue-on-error: true
     
     - name: 📈 Generate Statistics Report
       run: python generate_stats_badge.py
+      continue-on-error: true
     
     - name: 📤 Commit and Push Changes
       run: |
@@ -101,14 +102,14 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
     - name: 📊 Upload Database Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: retail-pos-database
         path: retail_pos.db
         retention-days: 30
     
     - name: 📋 Upload Logs
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: generation-logs
