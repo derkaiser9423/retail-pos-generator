@@ -211,9 +211,9 @@ MIT License - See [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📧 Email: your-email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/retail-pos-generator/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/retail-pos-generator/discussions)
+- 📧 Email: derkaiser9423@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/derkaiser9423/retail-pos-generator/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/derkaiser9423/retail-pos-generator/discussions)
 
 ---
 
@@ -230,7 +230,7 @@ MIT License - See [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 [derkaiser9423]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
