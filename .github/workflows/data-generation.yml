@@ -1,0 +1,85 @@
+name: Automated Data Generation
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+    paths:
+      - '**.py'
+
+jobs:
+  generate-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+    
+    - name: 📊 Run all data generators
+      run: python master_runner.py
+      continue-on-error: true
+    
+    - name: 📈 Generate statistics
+      run: |
+        if [ -f generate_stats_badge.py ]; then
+          python generate_stats_badge.py
+        fi
+      continue-on-error: true
+    
+    - name: 📊 Show generation summary
+      run: |
+        if [ -f retail_pos.db ]; then
+          python -c "
+          from utils import count_records
+          import os
+          
+          print('=' * 60)
+          print('DATA GENERATION SUMMARY')
+          print('=' * 60)
+          
+          db_size = os.path.getsize('retail_pos.db') / (1024*1024)
+          print(f'Database Size: {db_size:.2f} MB')
+          print()
+          
+          tables = ['CATEGORY', 'SUPPLIER', 'STAFF', 'MACHINE', 
+                    'PAYMENT_METHOD', 'TRANSACTION_TYPE', 'PRODUCT_GROUP',
+                    'PRODUCT', 'TRANSACTION_HEADER', 'TRANSACTION_LINE']
+          
+          total = 0
+          for table in tables:
+              try:
+                  count = count_records(table)
+                  total += count
+                  print(f'{table:25} {count:>10,} records')
+              except:
+                  pass
+          
+          print('=' * 60)
+          print(f'Total Records: {total:,}')
+          print('=' * 60)
+          "
+        fi
+    
+    - name: 📊 Upload Database Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: retail-pos-database-run-${{ github.run_number }}
+        path: retail_pos.db
+        retention-days: 30
+    
+    - name: 📋 Upload Logs
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: generation-logs-run-${{ github.run_number }}
+        path: logs/*.log
+        retention-days: 7
