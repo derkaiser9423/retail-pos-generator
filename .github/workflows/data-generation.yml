@@ -38,35 +38,35 @@ jobs:
     - name: 📊 Show generation summary
       run: |
         if [ -f retail_pos.db ]; then
-          python -c "
-          from utils import count_records
-          import os
-          
-          print('=' * 60)
-          print('DATA GENERATION SUMMARY')
-          print('=' * 60)
-          
-          db_size = os.path.getsize('retail_pos.db') / (1024*1024)
-          print(f'Database Size: {db_size:.2f} MB')
-          print()
-          
-          tables = ['CATEGORY', 'SUPPLIER', 'STAFF', 'MACHINE', 
-                    'PAYMENT_METHOD', 'TRANSACTION_TYPE', 'PRODUCT_GROUP',
-                    'PRODUCT', 'TRANSACTION_HEADER', 'TRANSACTION_LINE']
-          
-          total = 0
-          for table in tables:
-              try:
-                  count = count_records(table)
-                  total += count
-                  print(f'{table:25} {count:>10,} records')
-              except:
-                  pass
-          
-          print('=' * 60)
-          print(f'Total Records: {total:,}')
-          print('=' * 60)
-          "
+          python << 'EOF'
+from utils import count_records
+import os
+
+print('=' * 60)
+print('DATA GENERATION SUMMARY')
+print('=' * 60)
+
+db_size = os.path.getsize('retail_pos.db') / (1024*1024)
+print(f'Database Size: {db_size:.2f} MB')
+print()
+
+tables = ['CATEGORY', 'SUPPLIER', 'STAFF', 'MACHINE', 
+          'PAYMENT_METHOD', 'TRANSACTION_TYPE', 'PRODUCT_GROUP',
+          'PRODUCT', 'TRANSACTION_HEADER', 'TRANSACTION_LINE']
+
+total = 0
+for table in tables:
+    try:
+        count = count_records(table)
+        total += count
+        print(f'{table:25} {count:>10,} records')
+    except:
+        pass
+
+print('=' * 60)
+print(f'Total Records: {total:,}')
+print('=' * 60)
+EOF
         fi
     
     - name: 📊 Upload Database Artifact
