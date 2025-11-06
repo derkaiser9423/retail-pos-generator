@@ -1,0 +1,83 @@
+name: Database Backup
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+    
+    - name: 📅 Get current date
+      id: date
+      run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+    
+    - name: 🗄️ Create database backup
+      run: |
+        if [ -f retail_pos.db ]; then
+          mkdir -p backups
+          cp retail_pos.db backups/retail_pos_${{ steps.date.outputs.date }}.db
+          gzip backups/retail_pos_${{ steps.date.outputs.date }}.db
+          echo "Backup created: retail_pos_${{ steps.date.outputs.date }}.db.gz"
+          ls -lh backups/
+        else
+          echo "No database file found to backup"
+        fi
+    
+    - name: 📤 Upload backup artifact
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: database-backup-${{ steps.date.outputs.date }}
+        path: backups/*.gz
+        retention-days: 90
+    
+    - name: 📊 Database statistics
+      run: |
+        python << 'PYEOF'
+        try:
+            from utils import count_records
+            import os
+            
+            if os.path.exists('retail_pos.db'):
+                db_size = os.path.getsize('retail_pos.db') / (1024*1024)
+                
+                print('=' * 60)
+                print('DATABASE BACKUP STATISTICS')
+                print('=' * 60)
+                print(f'Database Size: {db_size:.2f} MB')
+                print()
+                print('Record Counts:')
+                
+                tables = ['CATEGORY', 'SUPPLIER', 'STAFF', 'MACHINE', 
+                          'PAYMENT_METHOD', 'TRANSACTION_TYPE', 'PRODUCT_GROUP',
+                          'PRODUCT', 'TRANSACTION_HEADER', 'TRANSACTION_LINE']
+                
+                total = 0
+                for table in tables:
+                    try:
+                        count = count_records(table)
+                        total += count
+                        print(f'  {table:25} {count:>10}')
+                    except:
+                        pass
+                
+                print('=' * 60)
+                print(f'Total Records: {total}')
+                print('=' * 60)
+            else:
+                print('No database file found')
+        except Exception as e:
+            print(f'Error: {e}')
+        PYEOF
+      continue-on-error: true
