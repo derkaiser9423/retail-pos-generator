@@ -71,39 +71,3 @@ jobs:
             print(f'Error: {e}')
         PYEOF
       continue-on-error: true
-```
-
----
-
-## Key Changes Made:
-
-### 1. **Changed heredoc delimiter**
-- From: `EOF`
-- To: `PYEOF` (Python End Of File)
-- This avoids conflicts with shell
-
-### 2. **Wrapped Python code in try-except**
-- Prevents workflow failure if imports fail
-- Better error messages
-
-### 3. **Removed commas in f-strings**
-- GitHub Actions has older Python in some contexts
-- Simple number formatting is more compatible
-
-### 4. **Added `continue-on-error: true`**
-- Stats/summary steps won't fail the whole workflow
-
-### 5. **All Python code starts at column 0**
-- No leading spaces that cause IndentationError
-
----
-
-## How to Update All Three Files:
-
-### Using Notepad:
-
-1. **Delete old files:**
-```
-   C:\retail-pos-generator\.github\workflows\data-generation.yml
-   C:\retail-pos-generator\.github\workflows\database-backup.yml
-   C:\retail-pos-generator\.github\workflows\test-generators.yml
