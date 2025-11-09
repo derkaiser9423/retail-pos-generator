@@ -318,11 +318,17 @@ MIT License - see [LICENSE](LICENSE) file
 
 ---
 
-## 📊 Statistics
+---
 
-![Repo Size](https://img.shields.io/github/repo-size/derkaiser9423/retail-pos-generator)
-![Commit Activity](https://img.shields.io/github/commit-activity/m/derkaiser9423/retail-pos-generator)
-![Last Commit](https://img.shields.io/github/last-commit/derkaiser9423/retail-pos-generator)
+## 📊 Repository Statistics
+
+![GitHub Repo Size](https://img.shields.io/github/repo-size/derkaiser9423/retail-pos-generator?style=flat-square&logo=github)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/derkaiser9423/retail-pos-generator?style=flat-square&logo=github)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/derkaiser9423/retail-pos-generator?style=flat-square&logo=github)
+![GitHub Stars](https://img.shields.io/github/stars/derkaiser9423/retail-pos-generator?style=flat-square&logo=github)
+![GitHub Forks](https://img.shields.io/github/forks/derkaiser9423/retail-pos-generator?style=flat-square&logo=github)
+![GitHub Issues](https://img.shields.io/github/issues/derkaiser9423/retail-pos-generator?style=flat-square&logo=github)
+![GitHub License](https://img.shields.io/github/license/derkaiser9423/retail-pos-generator?style=flat-square)
 
 ---
 
@@ -332,6 +338,7 @@ MIT License - see [LICENSE](LICENSE) file
 
 *Generating realistic retail data 24/7 in the cloud*
 
-**Current Status:** 1,578 records | 2.05 MB | Growing every 2 hours
+**Current Status:** {stats['total_records']:,} records | {stats['database_size_mb']} MB | Growing every 2 hours
+
 
 </div>
