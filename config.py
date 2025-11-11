@@ -41,9 +41,9 @@ BATCH_SIZES = {
     'PAYMENT_METHOD': 1,     # Generate 1 payment method per run
     'TRANSACTION_TYPE': 1,   # Generate 1 transaction type per run
     'PRODUCT_GROUP': 3,      # Generate 3 product groups per run
-    'PRODUCT': 10,           # Generate 10 products per run
-    'TRANSACTION_HEADER': 20, # Generate 20 transactions per run
-    'TRANSACTION_LINE': 50    # Generate 50 line items per run
+    'PRODUCT': 20,           # Generate 20 products per run
+    'TRANSACTION_HEADER': 200, # Generate 200 transactions per run
+    'TRANSACTION_LINE': 500    # Generate 500 line items per run
 }
 
 # ============================================
