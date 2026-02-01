@@ -2068,3 +2068,1038 @@
 2026-02-01 04:24:31 - MasterRunner - WARNING -   - Transaction Types
 2026-02-01 04:24:31 - MasterRunner - WARNING -   - Product Groups
 2026-02-01 04:24:31 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - MASTER RUNNER STARTED
+2026-02-01 06:40:48 - MasterRunner - INFO - Timestamp: 2026-02-01 06:40:48.409297
+2026-02-01 06:40:48 - MasterRunner - INFO - Total scripts to run: 10
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - Running: Categories (01_generate_categories.py)
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - CategoryGenerator - INFO - CATEGORY GENERATOR STARTED
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Timestamp: 2026-02-01 06:40:48.434670
+2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Starting category generation - Batch size: 2
+2026-02-01 06:40:48 - CategoryGenerator - WARNING - Could not generate unique category name after max retries
+2026-02-01 06:40:48 - CategoryGenerator - WARNING - Could not generate unique category name after max retries
+2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Generation Summary for CATEGORY
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Batch Size: 2
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Failed: 2
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Total categories in database: 257
+2026-02-01 06:40:48 - CategoryGenerator - INFO - CATEGORY GENERATOR FINISHED
+2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - ERROR - Script failed with exit code 1
+2026-02-01 06:40:48 - MasterRunner - ERROR - Error output: 2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - CategoryGenerator - INFO - CATEGORY GENERATOR STARTED
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Timestamp: 2026-02-01 06:40:48.434670
+2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Starting category generation - Batch size: 2
+2026-02-01 06:40:48 - CategoryGenerator - WARNING - Could not generate unique category name after max retries
+2026-02-01 06:40:48 - CategoryGenerator - WARNING - Could not generate unique category name after max retries
+2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Generation Summary for CATEGORY
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Batch Size: 2
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Failed: 2
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - CategoryGenerator - INFO - Total categories in database: 257
+2026-02-01 06:40:48 - CategoryGenerator - INFO - CATEGORY GENERATOR FINISHED
+2026-02-01 06:40:48 - CategoryGenerator - INFO - ============================================================
+
+2026-02-01 06:40:48 - MasterRunner - WARNING - Script Categories failed. Continuing to next script...
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - Running: Suppliers (02_generate_suppliers.py)
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - SupplierGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - SupplierGenerator - INFO - SUPPLIER GENERATOR STARTED
+2026-02-01 06:40:48 - SupplierGenerator - INFO - Timestamp: 2026-02-01 06:40:48.478441
+2026-02-01 06:40:48 - SupplierGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - SupplierGenerator - INFO - Starting supplier generation - Batch size: 3
+2026-02-01 06:40:48 - SupplierGenerator - INFO - ✓ Created supplier #3055: Advanced Medical Supplies (MEN)
+2026-02-01 06:40:48 - SupplierGenerator - INFO - ✓ Created supplier #3056: Metro Supplements (SANV)
+2026-02-01 06:40:48 - SupplierGenerator - INFO - ✓ Created supplier #3057: Direct International (APC)
+2026-02-01 06:40:48 - SupplierGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - SupplierGenerator - INFO - Generation Summary for SUPPLIER
+2026-02-01 06:40:48 - SupplierGenerator - INFO - Batch Size: 3
+2026-02-01 06:40:48 - SupplierGenerator - INFO - Successfully Generated: 3
+2026-02-01 06:40:48 - SupplierGenerator - INFO - Failed: 0
+2026-02-01 06:40:48 - SupplierGenerator - INFO - Success Rate: 100.0%
+2026-02-01 06:40:48 - SupplierGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - SupplierGenerator - INFO - Total suppliers in database: 3057
+2026-02-01 06:40:48 - SupplierGenerator - INFO - SUPPLIER GENERATOR FINISHED
+2026-02-01 06:40:48 - SupplierGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - ✓ Suppliers completed successfully
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - Running: Staff (03_generate_staff.py)
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - StaffGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - StaffGenerator - INFO - STAFF GENERATOR STARTED
+2026-02-01 06:40:48 - StaffGenerator - INFO - Timestamp: 2026-02-01 06:40:48.541088
+2026-02-01 06:40:48 - StaffGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - StaffGenerator - INFO - Starting staff generation - Batch size: 2
+2026-02-01 06:40:48 - StaffGenerator - INFO - ✓ Created staff #2037: Isabella R 853806 (No role)
+2026-02-01 06:40:48 - StaffGenerator - INFO - ✓ Created staff #2038: William F 901667 (Pharmacist)
+2026-02-01 06:40:48 - StaffGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - StaffGenerator - INFO - Generation Summary for STAFF
+2026-02-01 06:40:48 - StaffGenerator - INFO - Batch Size: 2
+2026-02-01 06:40:48 - StaffGenerator - INFO - Successfully Generated: 2
+2026-02-01 06:40:48 - StaffGenerator - INFO - Failed: 0
+2026-02-01 06:40:48 - StaffGenerator - INFO - Success Rate: 100.0%
+2026-02-01 06:40:48 - StaffGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - StaffGenerator - INFO - Total staff in database: 2038
+2026-02-01 06:40:48 - StaffGenerator - INFO - STAFF GENERATOR FINISHED
+2026-02-01 06:40:48 - StaffGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - ✓ Staff completed successfully
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - Running: Machines (04_generate_machines.py)
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MachineGenerator - INFO - MACHINE GENERATOR STARTED
+2026-02-01 06:40:48 - MachineGenerator - INFO - Timestamp: 2026-02-01 06:40:48.577895
+2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MachineGenerator - INFO - Starting machine generation - Batch size: 1
+2026-02-01 06:40:48 - MachineGenerator - WARNING - Could not generate unique machine name after max retries
+2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MachineGenerator - INFO - Generation Summary for MACHINE
+2026-02-01 06:40:48 - MachineGenerator - INFO - Batch Size: 1
+2026-02-01 06:40:48 - MachineGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - MachineGenerator - INFO - Failed: 1
+2026-02-01 06:40:48 - MachineGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MachineGenerator - INFO - Total machines in database: 15
+2026-02-01 06:40:48 - MachineGenerator - INFO - MACHINE GENERATOR FINISHED
+2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - ERROR - Script failed with exit code 1
+2026-02-01 06:40:48 - MasterRunner - ERROR - Error output: 2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MachineGenerator - INFO - MACHINE GENERATOR STARTED
+2026-02-01 06:40:48 - MachineGenerator - INFO - Timestamp: 2026-02-01 06:40:48.577895
+2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MachineGenerator - INFO - Starting machine generation - Batch size: 1
+2026-02-01 06:40:48 - MachineGenerator - WARNING - Could not generate unique machine name after max retries
+2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MachineGenerator - INFO - Generation Summary for MACHINE
+2026-02-01 06:40:48 - MachineGenerator - INFO - Batch Size: 1
+2026-02-01 06:40:48 - MachineGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - MachineGenerator - INFO - Failed: 1
+2026-02-01 06:40:48 - MachineGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MachineGenerator - INFO - Total machines in database: 15
+2026-02-01 06:40:48 - MachineGenerator - INFO - MACHINE GENERATOR FINISHED
+2026-02-01 06:40:48 - MachineGenerator - INFO - ============================================================
+
+2026-02-01 06:40:48 - MasterRunner - WARNING - Script Machines failed. Continuing to next script...
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - Running: Payment Methods (05_generate_payment_methods.py)
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - PAYMENT METHOD GENERATOR STARTED
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Timestamp: 2026-02-01 06:40:48.619743
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Starting payment method generation - Batch size: 1
+2026-02-01 06:40:48 - PaymentMethodGenerator - WARNING - Could not generate unique payment method name after max retries
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Generation Summary for PAYMENT_METHOD
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Batch Size: 1
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Failed: 1
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Total payment methods in database: 18
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - PAYMENT METHOD GENERATOR FINISHED
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - ERROR - Script failed with exit code 1
+2026-02-01 06:40:48 - MasterRunner - ERROR - Error output: 2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - PAYMENT METHOD GENERATOR STARTED
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Timestamp: 2026-02-01 06:40:48.619743
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Starting payment method generation - Batch size: 1
+2026-02-01 06:40:48 - PaymentMethodGenerator - WARNING - Could not generate unique payment method name after max retries
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Generation Summary for PAYMENT_METHOD
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Batch Size: 1
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Failed: 1
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - Total payment methods in database: 18
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - PAYMENT METHOD GENERATOR FINISHED
+2026-02-01 06:40:48 - PaymentMethodGenerator - INFO - ============================================================
+
+2026-02-01 06:40:48 - MasterRunner - WARNING - Script Payment Methods failed. Continuing to next script...
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - Running: Transaction Types (06_generate_transaction_types.py)
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - TRANSACTION TYPE GENERATOR STARTED
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Timestamp: 2026-02-01 06:40:48.658628
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Starting transaction type generation - Batch size: 1
+2026-02-01 06:40:48 - TransactionTypeGenerator - WARNING - Could not generate unique transaction type name after max retries
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Generation Summary for TRANSACTION_TYPE
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Batch Size: 1
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Failed: 1
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Total transaction types in database: 12
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - TRANSACTION TYPE GENERATOR FINISHED
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - ERROR - Script failed with exit code 1
+2026-02-01 06:40:48 - MasterRunner - ERROR - Error output: 2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - TRANSACTION TYPE GENERATOR STARTED
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Timestamp: 2026-02-01 06:40:48.658628
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Starting transaction type generation - Batch size: 1
+2026-02-01 06:40:48 - TransactionTypeGenerator - WARNING - Could not generate unique transaction type name after max retries
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Generation Summary for TRANSACTION_TYPE
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Batch Size: 1
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Failed: 1
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - Total transaction types in database: 12
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - TRANSACTION TYPE GENERATOR FINISHED
+2026-02-01 06:40:48 - TransactionTypeGenerator - INFO - ============================================================
+
+2026-02-01 06:40:48 - MasterRunner - WARNING - Script Transaction Types failed. Continuing to next script...
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - Running: Product Groups (07_generate_product_groups.py)
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - PRODUCT GROUP GENERATOR STARTED
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Timestamp: 2026-02-01 06:40:48.695497
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Starting product group generation - Batch size: 3
+2026-02-01 06:40:48 - ProductGroupGenerator - WARNING - Could not generate unique product group name after max retries
+2026-02-01 06:40:48 - ProductGroupGenerator - WARNING - Could not generate unique product group name after max retries
+2026-02-01 06:40:48 - ProductGroupGenerator - WARNING - Could not generate unique product group name after max retries
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Generation Summary for PRODUCT_GROUP
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Batch Size: 3
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Failed: 3
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Total product groups in database: 818
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - PRODUCT GROUP GENERATOR FINISHED
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - ERROR - Script failed with exit code 1
+2026-02-01 06:40:48 - MasterRunner - ERROR - Error output: 2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - PRODUCT GROUP GENERATOR STARTED
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Timestamp: 2026-02-01 06:40:48.695497
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Starting product group generation - Batch size: 3
+2026-02-01 06:40:48 - ProductGroupGenerator - WARNING - Could not generate unique product group name after max retries
+2026-02-01 06:40:48 - ProductGroupGenerator - WARNING - Could not generate unique product group name after max retries
+2026-02-01 06:40:48 - ProductGroupGenerator - WARNING - Could not generate unique product group name after max retries
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Generation Summary for PRODUCT_GROUP
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Batch Size: 3
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Successfully Generated: 0
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Failed: 3
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Success Rate: 0.0%
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - Total product groups in database: 818
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - PRODUCT GROUP GENERATOR FINISHED
+2026-02-01 06:40:48 - ProductGroupGenerator - INFO - ============================================================
+
+2026-02-01 06:40:48 - MasterRunner - WARNING - Script Product Groups failed. Continuing to next script...
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - Running: Products (08_generate_products.py)
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGenerator - INFO - PRODUCT GENERATOR STARTED
+2026-02-01 06:40:48 - ProductGenerator - INFO - Timestamp: 2026-02-01 06:40:48.753307
+2026-02-01 06:40:48 - ProductGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGenerator - INFO - Starting product generation - Batch size: 20
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 2866: Bosisto's Drops Serum 30 Tablets... (SOH: 34, Cost: $0.90)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 7068: Ego Therapeutic Complex 200ml... (SOH: 32, Cost: $5.47)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 37244: Neutrogena Capsules 75g... (SOH: 49, Cost: $68.77)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 100807: La Roche-Posay Gel Oil 75g... (SOH: 12, Cost: $11.54)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 21465: Neutrogena Clinical Liquid 150ml... (SOH: 55, Cost: $12.45)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 88528: Oral B Cleanser Oil 60 Tablets... (SOH: 49, Cost: $12.94)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 51962: Huggies Powder 24 Tablets... (SOH: 0, Cost: $5.15)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 144142: Nivea Cream Oil 150ml... (SOH: 25, Cost: $8.30)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 523142: Life-Space Gel 200ml... (SOH: 44, Cost: $4.30)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 9685: Life-Space Shampoo 50 Pack... (SOH: 0, Cost: $30.02)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 25683: U by Kotex Capsules Tablets 50g... (SOH: 69, Cost: $38.12)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 82257: Berocca Gentle Powder 24 Tablets... (SOH: 7, Cost: $14.71)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 5875: Treatment 90 Tablets... (SOH: 49, Cost: $15.11)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 6167: La Roche-Posay Treatment 60 Tablets... (SOH: 31, Cost: $23.78)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 32758: Lucas Papaw Dermatological Shampoo 125ml... (SOH: 30, Cost: $10.56)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 84184: Care 90 Tablets... (SOH: 0, Cost: $3.61)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 58124: Berocca Super Cleanser 50 Pack... (SOH: 24, Cost: $19.19)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 264752: Huggies Formula 100ml... (SOH: 41, Cost: $6.58)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 3209: Bandaid Tablets Gel 150ml... (SOH: 0, Cost: $1.28)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ✓ Created product PLU 441025: Relief 200ml... (SOH: 9, Cost: $17.95)
+2026-02-01 06:40:48 - ProductGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGenerator - INFO - Generation Summary for PRODUCT
+2026-02-01 06:40:48 - ProductGenerator - INFO - Batch Size: 20
+2026-02-01 06:40:48 - ProductGenerator - INFO - Successfully Generated: 20
+2026-02-01 06:40:48 - ProductGenerator - INFO - Failed: 0
+2026-02-01 06:40:48 - ProductGenerator - INFO - Success Rate: 100.0%
+2026-02-01 06:40:48 - ProductGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - ProductGenerator - INFO - Total products in database: 20040
+2026-02-01 06:40:48 - ProductGenerator - INFO - PRODUCT GENERATOR FINISHED
+2026-02-01 06:40:48 - ProductGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - ✓ Products completed successfully
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - MasterRunner - INFO - Running: Transaction Headers (09_generate_transaction_headers.py)
+2026-02-01 06:40:48 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - TRANSACTION HEADER GENERATOR STARTED
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - Timestamp: 2026-02-01 06:40:48.853251
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ============================================================
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - Starting transaction header generation - Batch size: 200
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197481: 2025-11-22 09:55:50 on Machine #7
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197482: 2026-01-02 18:45:11 on Machine #5
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197483: 2025-11-30 21:51:26 on Machine #6
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197484: 2025-12-26 15:41:09 on Machine #2
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197485: 2025-11-27 16:11:38 on Machine #9
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197486: 2025-11-03 18:06:48 on Machine #14
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197487: 2025-12-28 22:06:33 on Machine #8
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197488: 2025-12-17 09:36:26 on Machine #8
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197489: 2026-01-26 22:04:09 on Machine #12
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197490: 2026-01-28 21:15:04 on Machine #8 [Staff Purchase]
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197491: 2025-12-25 13:40:54 on Machine #1
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197492: 2025-12-05 09:26:28 on Machine #12 [Staff Purchase]
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197493: 2026-01-25 10:57:04 on Machine #12
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197494: 2026-01-06 08:49:57 on Machine #15
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197495: 2026-01-11 15:26:07 on Machine #1
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197496: 2025-12-11 22:44:17 on Machine #1
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197497: 2026-01-13 21:50:06 on Machine #1
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197498: 2025-11-14 17:46:59 on Machine #13
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197499: 2025-12-05 15:58:04 on Machine #12 [Staff Purchase]
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197500: 2025-11-12 20:41:01 on Machine #14
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197501: 2026-01-15 09:11:07 on Machine #14
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197502: 2025-12-13 21:06:29 on Machine #2
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197503: 2025-12-22 20:49:57 on Machine #1
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197504: 2025-12-23 21:42:55 on Machine #15
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197505: 2025-11-12 09:39:23 on Machine #4
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197506: 2025-11-10 08:58:24 on Machine #7
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197507: 2025-11-12 19:52:08 on Machine #4
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197508: 2026-01-03 14:10:24 on Machine #1
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197509: 2025-12-01 09:44:59 on Machine #2
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197510: 2025-12-08 20:38:21 on Machine #10
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197511: 2025-12-30 08:01:41 on Machine #8
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197512: 2026-01-23 15:29:30 on Machine #7 [Staff Purchase]
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197513: 2025-12-11 13:04:36 on Machine #11 [Staff Purchase]
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197514: 2026-01-08 19:14:16 on Machine #8 [Staff Purchase]
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197515: 2025-12-03 19:28:35 on Machine #5
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197516: 2026-01-29 08:36:35 on Machine #8
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197517: 2025-11-21 12:08:25 on Machine #12
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197518: 2025-11-22 20:02:32 on Machine #7
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197519: 2026-01-25 09:05:28 on Machine #14
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197520: 2025-12-19 17:48:52 on Machine #9
+2026-02-01 06:40:48 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197521: 2026-01-18 08:42:53 on Machine #5
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197522: 2025-12-12 13:16:14 on Machine #11 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197523: 2026-01-25 20:04:24 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197524: 2025-11-23 15:28:37 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197525: 2025-11-08 17:50:18 on Machine #2
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197526: 2025-11-10 09:12:52 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197527: 2025-11-10 16:35:26 on Machine #7
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197528: 2025-12-21 20:51:17 on Machine #3
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197529: 2025-11-08 17:58:19 on Machine #3
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197530: 2025-11-14 20:13:53 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197531: 2025-11-20 15:55:16 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197532: 2025-11-10 19:08:06 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197533: 2025-11-20 13:40:17 on Machine #3
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197534: 2025-12-09 20:34:09 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197535: 2026-01-20 17:39:15 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197536: 2025-12-31 22:47:40 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197537: 2025-12-18 19:26:02 on Machine #3
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197538: 2026-01-07 17:28:15 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197539: 2025-12-06 21:48:55 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197540: 2025-12-27 18:06:49 on Machine #3
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197541: 2026-01-01 16:10:03 on Machine #5
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197542: 2026-01-08 22:37:40 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197543: 2025-12-27 12:32:02 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197544: 2025-12-24 15:03:09 on Machine #7 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197545: 2026-01-18 13:59:14 on Machine #5
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197546: 2025-11-15 16:47:26 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197547: 2026-01-03 08:34:19 on Machine #3 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197548: 2026-01-18 20:59:37 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197549: 2025-11-25 13:02:45 on Machine #12 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197550: 2026-01-31 16:57:12 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197551: 2026-01-08 10:30:08 on Machine #10
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197552: 2026-01-01 10:24:00 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197553: 2026-01-24 10:21:21 on Machine #10
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197554: 2026-01-19 11:11:49 on Machine #2
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197555: 2025-11-11 22:18:44 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197556: 2026-01-25 21:08:15 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197557: 2025-11-28 08:00:43 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197558: 2026-01-22 10:11:05 on Machine #10
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197559: 2026-01-25 16:19:04 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197560: 2026-01-12 14:46:48 on Machine #2
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197561: 2026-01-22 14:08:15 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197562: 2026-01-04 13:38:25 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197563: 2025-11-12 22:28:49 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197564: 2025-11-12 14:51:58 on Machine #7
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197565: 2025-12-02 08:54:11 on Machine #8
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197566: 2025-11-16 13:28:19 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197567: 2025-11-24 16:59:16 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197568: 2026-01-26 14:03:28 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197569: 2025-11-26 19:27:23 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197570: 2025-12-12 11:47:25 on Machine #8
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197571: 2025-12-09 09:16:18 on Machine #13
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197572: 2026-01-26 14:08:27 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197573: 2025-11-17 14:37:22 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197574: 2025-11-21 11:58:38 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197575: 2025-12-17 16:58:39 on Machine #5
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197576: 2026-01-07 21:35:03 on Machine #13
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197577: 2025-11-22 18:01:48 on Machine #10
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197578: 2025-11-19 18:51:39 on Machine #10
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197579: 2026-01-09 19:19:01 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197580: 2026-01-11 19:10:16 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197581: 2026-01-18 08:32:55 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197582: 2026-02-01 17:34:09 on Machine #5 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197583: 2025-11-29 21:00:30 on Machine #7
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197584: 2026-01-12 13:57:41 on Machine #5
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197585: 2026-01-12 15:51:52 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197586: 2025-11-12 21:31:33 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197587: 2026-01-17 09:38:07 on Machine #3 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197588: 2025-12-19 21:12:15 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197589: 2025-12-18 11:40:09 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197590: 2025-12-03 11:49:41 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197591: 2026-01-03 18:35:46 on Machine #9 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197592: 2026-01-10 19:26:16 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197593: 2026-01-25 19:07:34 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197594: 2025-12-16 18:36:08 on Machine #5
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197595: 2025-11-12 08:20:46 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197596: 2026-01-30 18:23:03 on Machine #3
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197597: 2025-11-19 14:49:43 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197598: 2025-11-17 19:58:59 on Machine #3 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197599: 2025-12-16 12:44:13 on Machine #4 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197600: 2026-01-28 14:55:11 on Machine #10 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197601: 2026-01-31 19:44:31 on Machine #13
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197602: 2025-11-10 11:42:54 on Machine #13 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197603: 2026-01-29 18:47:27 on Machine #2
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197604: 2025-11-24 14:05:22 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197605: 2025-12-27 13:25:50 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197606: 2026-01-17 15:59:38 on Machine #2
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197607: 2026-01-24 13:32:51 on Machine #5
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197608: 2025-11-04 20:22:26 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197609: 2025-11-17 15:58:00 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197610: 2025-12-10 20:27:27 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197611: 2025-11-28 09:31:13 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197612: 2025-12-05 12:27:33 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197613: 2025-11-03 11:03:10 on Machine #5
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197614: 2026-01-09 19:09:31 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197615: 2025-12-05 17:53:42 on Machine #7
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197616: 2026-01-20 12:23:43 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197617: 2025-11-06 19:15:58 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197618: 2025-12-31 14:45:36 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197619: 2025-12-30 10:35:54 on Machine #2
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197620: 2025-12-16 08:41:31 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197621: 2025-12-12 12:47:23 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197622: 2025-11-12 18:41:15 on Machine #7
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197623: 2026-01-05 14:52:58 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197624: 2026-01-09 17:12:27 on Machine #8
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197625: 2026-01-06 09:00:17 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197626: 2025-11-13 08:37:06 on Machine #7
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197627: 2026-01-25 17:16:24 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197628: 2025-11-13 21:23:46 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197629: 2026-01-23 09:26:04 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197630: 2025-11-29 20:58:57 on Machine #8
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197631: 2026-01-18 17:30:04 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197632: 2026-01-17 08:01:23 on Machine #3
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197633: 2026-01-25 17:22:13 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197634: 2025-11-10 09:31:44 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197635: 2026-01-07 12:18:33 on Machine #10
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197636: 2025-11-26 09:34:28 on Machine #4
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197637: 2025-11-18 17:04:10 on Machine #1 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197638: 2025-12-01 10:10:53 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197639: 2026-01-14 17:33:16 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197640: 2025-11-23 22:10:16 on Machine #3
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197641: 2025-11-13 15:23:38 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197642: 2026-01-02 13:34:34 on Machine #2
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197643: 2025-12-29 22:46:34 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197644: 2025-11-07 09:42:06 on Machine #8
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197645: 2026-01-27 19:46:32 on Machine #5
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197646: 2025-11-17 16:11:53 on Machine #2
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197647: 2026-01-29 13:42:55 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197648: 2026-01-28 21:26:48 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197649: 2025-11-26 12:06:15 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197650: 2025-11-04 10:44:52 on Machine #4 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197651: 2025-12-25 21:01:47 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197652: 2025-12-19 10:52:41 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197653: 2026-01-13 10:12:16 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197654: 2026-01-21 10:29:55 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197655: 2025-11-08 12:40:59 on Machine #13 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197656: 2025-12-23 09:34:05 on Machine #5 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197657: 2026-01-15 12:48:52 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197658: 2026-01-02 14:21:24 on Machine #7
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197659: 2025-11-24 22:51:29 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197660: 2025-12-03 21:21:22 on Machine #6 [Staff Purchase]
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197661: 2025-11-14 20:20:31 on Machine #2
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197662: 2025-12-18 22:14:00 on Machine #13
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197663: 2025-11-15 16:45:57 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197664: 2025-11-28 20:52:05 on Machine #11
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197665: 2025-12-09 20:00:54 on Machine #14
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197666: 2025-11-21 10:04:29 on Machine #13
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197667: 2025-12-28 19:02:29 on Machine #8
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197668: 2026-01-08 16:08:02 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197669: 2026-01-31 17:39:24 on Machine #13
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197670: 2026-01-15 14:50:19 on Machine #10
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197671: 2026-01-03 17:48:54 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197672: 2026-01-31 21:41:16 on Machine #13
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197673: 2025-12-08 11:39:21 on Machine #12
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197674: 2025-12-15 16:51:43 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197675: 2026-01-03 19:57:51 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197676: 2025-11-19 09:08:18 on Machine #9
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197677: 2026-01-09 20:52:27 on Machine #1
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197678: 2025-12-18 20:54:10 on Machine #13
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197679: 2025-11-28 22:52:05 on Machine #6
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ✓ Created transaction #197680: 2026-01-19 11:08:41 on Machine #15
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ============================================================
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - Generation Summary for TRANSACTION_HEADER
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - Batch Size: 200
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - Successfully Generated: 200
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - Failed: 0
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - Success Rate: 100.0%
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ============================================================
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - Total transaction headers in database: 197680
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - TRANSACTION HEADER GENERATOR FINISHED
+2026-02-01 06:40:49 - TransactionHeaderGenerator - INFO - ============================================================
+2026-02-01 06:40:49 - MasterRunner - INFO - ✓ Transaction Headers completed successfully
+2026-02-01 06:40:49 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:49 - MasterRunner - INFO - Running: Transaction Lines (10_generate_transaction_lines.py)
+2026-02-01 06:40:49 - MasterRunner - INFO - ============================================================
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ============================================================
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - TRANSACTION LINE GENERATOR STARTED
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - Timestamp: 2026-02-01 06:40:49.614830
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ============================================================
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - Starting transaction line generation - Batch size: 500
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493701: Transaction #38851, PLU 82508, Qty 2, $97.38
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493702: Transaction #148585, PLU 800967, Qty 1, $38.89
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493703: Transaction #72979, PLU 3715, Qty 7, $465.43
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493704: Transaction #194778, PLU 239508, Qty 1, $16.79
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493705: Transaction #59219, PLU 854559, Qty 1, $5.89
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493706: Transaction #146655, PLU 33230, Qty 4, $131.56
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493707: Transaction #3244, PLU 97685, Qty 1, $73.95
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493708: Transaction #93646, PLU 72773, Qty 2, $35.58
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493709: Transaction #104411, PLU 47423, Qty 1, $94.79
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493710: Transaction #94582, PLU 695, Qty 1, $38.89
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493711: Transaction #173965, PLU 580141, Qty 1, $3.95
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493712: Transaction #3720, PLU 1002, Qty 4, $114.76
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493713: Transaction #126745, PLU 26501, Qty 1, $15.69
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493714: Transaction #139519, PLU 5928, Qty 1, $92.99
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493715: Transaction #134524, PLU 273, Qty 1, $51.49
+2026-02-01 06:40:49 - TransactionLineGenerator - INFO - ✓ Created line #493716: Transaction #108742, PLU 70073, Qty 1, $65.59 (20.0% off)
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493717: Transaction #192647, PLU 2228, Qty 1, $154.49
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493718: Transaction #73263, PLU 249, Qty 1, $44.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493719: Transaction #191066, PLU 9418, Qty 1, $30.99
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493720: Transaction #73937, PLU 34415, Qty 1, $57.49
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493721: Transaction #54350, PLU 6409, Qty 1, $51.99
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493722: Transaction #112390, PLU 83183, Qty 2, $117.90
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493723: Transaction #161158, PLU 3133, Qty 4, $31.56
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493724: Transaction #39269, PLU 430282, Qty 1, $133.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493725: Transaction #179907, PLU 1654, Qty 5, $388.95
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493726: Transaction #50260, PLU 8696, Qty 8, $535.12
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493727: Transaction #73288, PLU 42566, Qty 5, $104.95
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493728: Transaction #61800, PLU 110343, Qty 1, $9.79
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493729: Transaction #118869, PLU 5255, Qty 3, $194.85
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493730: Transaction #2022, PLU 72336, Qty 1, $87.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493731: Transaction #175890, PLU 959771, Qty 1, $77.79
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493732: Transaction #144292, PLU 8300, Qty 1, $62.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493733: Transaction #177558, PLU 7053, Qty 2, $13.90
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493734: Transaction #137846, PLU 52060, Qty 1, $49.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493735: Transaction #89110, PLU 76601, Qty 1, $27.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493736: Transaction #129120, PLU 48261, Qty 1, $34.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493737: Transaction #46314, PLU 348182, Qty 5.0, $44.95
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493738: Transaction #44990, PLU 94829, Qty 1, $38.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493739: Transaction #52209, PLU 2241, Qty 2, $223.58
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493740: Transaction #100376, PLU 809433, Qty 1, $26.95
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493741: Transaction #7827, PLU 9297, Qty 1, $127.79
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493742: Transaction #98315, PLU 78625, Qty 4, $17.96
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493743: Transaction #189153, PLU 62938, Qty 1, $45.95
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493744: Transaction #74351, PLU 47779, Qty 1, $40.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493745: Transaction #196368, PLU 4653, Qty 7, $377.65
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493746: Transaction #172904, PLU 9817, Qty 1, $25.95
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493747: Transaction #163387, PLU 9342, Qty 1, $31.99
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493748: Transaction #162667, PLU 7674, Qty 1, $20.79
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493749: Transaction #96436, PLU 35209, Qty 10, $749.90
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493750: Transaction #97389, PLU 50403, Qty 1, $10.89
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493751: Transaction #41002, PLU 37945, Qty 2, $65.98
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493752: Transaction #167843, PLU 681478, Qty 1, $44.99
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493753: Transaction #44559, PLU 12924, Qty 4, $160.16 (10.0% off)
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493754: Transaction #59323, PLU 79911, Qty 1, $52.69
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493755: Transaction #85484, PLU 6642, Qty 1, $60.49
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493756: Transaction #158513, PLU 951256, Qty 1, $21.69
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493757: Transaction #187482, PLU 6117, Qty 1, $3.95
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493758: Transaction #31604, PLU 1152, Qty 10, $436.90
+2026-02-01 06:40:50 - TransactionLineGenerator - INFO - ✓ Created line #493759: Transaction #139240, PLU 423462, Qty 1, $40.95
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493760: Transaction #142612, PLU 86045, Qty 1, $9.89
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493761: Transaction #62436, PLU 99653, Qty 2, $79.38
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493762: Transaction #146358, PLU 27153, Qty 2, $29.78
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493763: Transaction #124143, PLU 58999, Qty 1, $22.95
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493764: Transaction #173783, PLU 45445, Qty 10, $309.50
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493765: Transaction #125077, PLU 86561, Qty 4, $419.16
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493766: Transaction #139386, PLU 99200, Qty 3, $230.37
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493767: Transaction #104992, PLU 1551, Qty 1, $54.95
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493768: Transaction #146638, PLU 73558, Qty 3, $83.85
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493769: Transaction #68850, PLU 64137, Qty 3, $59.97
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493770: Transaction #170143, PLU 80313, Qty 1, $116.69
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493771: Transaction #54263, PLU 53118, Qty 1, $80.95
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493772: Transaction #183893, PLU 7656, Qty 7, $424.42 (20.0% off)
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493773: Transaction #61848, PLU 6271, Qty 4, $66.76
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493774: Transaction #151892, PLU 20211, Qty 1, $69.95
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493775: Transaction #80519, PLU 72522, Qty 2, $91.78
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493776: Transaction #89766, PLU 1153, Qty 1, $75.49
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493777: Transaction #171287, PLU 6967, Qty 2, $8.98
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493778: Transaction #151158, PLU 37267, Qty 1, $27.69
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493779: Transaction #118540, PLU 8257, Qty 2, $73.58
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493780: Transaction #73773, PLU 504771, Qty 2, $37.38
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493781: Transaction #27059, PLU 21581, Qty 1, $44.49
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493782: Transaction #17429, PLU 411682, Qty 1, $21.49
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493783: Transaction #93830, PLU 3985, Qty 1, $36.79
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493784: Transaction #96504, PLU 140455, Qty 1, $29.49
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493785: Transaction #88834, PLU 84945, Qty 2, $92.62 (20.0% off)
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493786: Transaction #122684, PLU 135, Qty 1, $16.79
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493787: Transaction #189292, PLU 86241, Qty 1, $106.99
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493788: Transaction #60882, PLU 7508, Qty 1, $28.99
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493789: Transaction #117643, PLU 1505, Qty 1, $20.22 (15.0% off)
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493790: Transaction #146923, PLU 655118, Qty 1, $49.79
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493791: Transaction #193363, PLU 9924, Qty 1, $20.89
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493792: Transaction #117352, PLU 11850, Qty 2, $45.38
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493793: Transaction #170805, PLU 7645, Qty 5, $276.04 (15.0% off)
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493794: Transaction #143086, PLU 26073, Qty 1, $1.69
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493795: Transaction #44406, PLU 36344, Qty 2, $227.90
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493796: Transaction #74867, PLU 3707, Qty 1, $22.89
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493797: Transaction #14243, PLU 22357, Qty 1, $17.99
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493798: Transaction #218, PLU 4853, Qty 1, $91.95
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493799: Transaction #162724, PLU 60684, Qty 1, $59.99
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493800: Transaction #113153, PLU 2673, Qty 2, $21.78
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493801: Transaction #96195, PLU 90968, Qty 1, $73.69
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493802: Transaction #103262, PLU 8441, Qty 1, $55.99
+2026-02-01 06:40:51 - TransactionLineGenerator - INFO - ✓ Created line #493803: Transaction #142014, PLU 528060, Qty 1, $47.49
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493804: Transaction #12315, PLU 352401, Qty 4, $23.80
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493805: Transaction #126951, PLU 90089, Qty 6, $82.74
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493806: Transaction #172835, PLU 348, Qty 10, $189.50
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493807: Transaction #142953, PLU 1181, Qty 1, $77.79
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493808: Transaction #67308, PLU 56755, Qty 1, $32.79
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493809: Transaction #176429, PLU 501220, Qty 1, $48.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493810: Transaction #38169, PLU 96554, Qty 1, $109.99
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493811: Transaction #66366, PLU 390517, Qty 5, $203.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493812: Transaction #175013, PLU 87515, Qty 1, $30.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493813: Transaction #67503, PLU 110802, Qty 1, $51.99
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493814: Transaction #49427, PLU 42313, Qty 1, $5.99
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493815: Transaction #47255, PLU 126273, Qty 1, $11.99
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493816: Transaction #161268, PLU 850273, Qty 5, $168.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493817: Transaction #78712, PLU 4470, Qty 5, $258.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493818: Transaction #151904, PLU 29525, Qty 1, $77.89
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493819: Transaction #29973, PLU 22013, Qty 1, $82.89
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493820: Transaction #25344, PLU 264926, Qty 5, $644.75
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493821: Transaction #166480, PLU 1412, Qty 1, $12.79
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493822: Transaction #141367, PLU 4871, Qty 1, $78.89
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493823: Transaction #158547, PLU 663006, Qty 1, $71.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493824: Transaction #143255, PLU 65648, Qty 1, $65.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493825: Transaction #155890, PLU 992426, Qty 1, $34.99
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493826: Transaction #117287, PLU 24708, Qty 1, $25.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493827: Transaction #46261, PLU 28503, Qty 1, $41.89
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493828: Transaction #136555, PLU 8480, Qty 1, $35.99
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493829: Transaction #196962, PLU 114027, Qty 1, $50.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493830: Transaction #165050, PLU 6198, Qty 1, $69.69
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493831: Transaction #60725, PLU 2086, Qty 1, $27.99
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493832: Transaction #144943, PLU 421245, Qty 1, $22.69
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493833: Transaction #78313, PLU 513994, Qty 3, $8.67
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493834: Transaction #63481, PLU 95820, Qty 1, $6.79
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493835: Transaction #108548, PLU 287, Qty 5, $440.95 (10.0% off)
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493836: Transaction #124302, PLU 4760, Qty 1, $26.26 (15.0% off)
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493837: Transaction #154939, PLU 5860, Qty 1, $28.95
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493838: Transaction #13541, PLU 245344, Qty 1, $54.49
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493839: Transaction #8456, PLU 3866, Qty 1, $12.79
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493840: Transaction #83519, PLU 4095, Qty 1, $62.79
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493841: Transaction #61790, PLU 951514, Qty 1, $55.89
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493842: Transaction #147828, PLU 85846, Qty 1, $26.89
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493843: Transaction #100780, PLU 7063, Qty 1, $140.49
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493844: Transaction #145388, PLU 50657, Qty 2, $71.38
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493845: Transaction #66140, PLU 48658, Qty 1, $44.69
+2026-02-01 06:40:52 - TransactionLineGenerator - INFO - ✓ Created line #493846: Transaction #148652, PLU 2940, Qty 1, $39.99
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493847: Transaction #159276, PLU 668123, Qty 1, $118.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493848: Transaction #6217, PLU 10556, Qty 1, $15.69
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493849: Transaction #6038, PLU 61146, Qty 1, $16.49
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493850: Transaction #56657, PLU 576710, Qty 1, $92.81 (5.0% off)
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493851: Transaction #107981, PLU 311143, Qty 1, $47.69
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493852: Transaction #128433, PLU 56547, Qty 1, $4.79
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493853: Transaction #77875, PLU 5367, Qty 3, $101.67
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493854: Transaction #117307, PLU 1500, Qty 1, $47.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493855: Transaction #116171, PLU 29499, Qty 1, $55.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493856: Transaction #179062, PLU 223389, Qty 1, $55.99
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493857: Transaction #35717, PLU 730100, Qty 4, $102.76
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493858: Transaction #63955, PLU 1305, Qty 1, $79.91 (10.0% off)
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493859: Transaction #120846, PLU 409417, Qty 3, $56.97
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493860: Transaction #182228, PLU 98654, Qty 1, $24.95
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493861: Transaction #86182, PLU 479773, Qty 10, $219.50
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493862: Transaction #41582, PLU 993254, Qty 1, $20.99
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493863: Transaction #161290, PLU 84241, Qty 1, $30.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493864: Transaction #170976, PLU 32277, Qty 1, $168.49
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493865: Transaction #88524, PLU 56574, Qty 1, $14.99
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493866: Transaction #192824, PLU 4659, Qty 1, $137.69
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493867: Transaction #91723, PLU 97337, Qty 1, $124.49
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493868: Transaction #12366, PLU 9730, Qty 1, $42.79
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493869: Transaction #37394, PLU 30942, Qty 1, $15.99
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493870: Transaction #151119, PLU 39309, Qty 2, $50.98
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493871: Transaction #87904, PLU 469343, Qty 1, $25.36 (5.0% off)
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493872: Transaction #157397, PLU 27196, Qty 5, $18.45
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493873: Transaction #119556, PLU 49476, Qty 9, $125.01
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493874: Transaction #136215, PLU 6090, Qty 1, $4.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493875: Transaction #183089, PLU 51901, Qty 5, $219.95
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493876: Transaction #129454, PLU 7226, Qty 1, $9.21 (5.0% off)
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493877: Transaction #197657, PLU 699684, Qty 1, $42.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493878: Transaction #31203, PLU 859395, Qty 5, $98.45
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493879: Transaction #123106, PLU 34517, Qty 1, $93.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493880: Transaction #43839, PLU 169761, Qty 2, $19.78
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493881: Transaction #17193, PLU 6799, Qty 3, $95.85
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493882: Transaction #30272, PLU 67644, Qty 1, $18.79
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493883: Transaction #19047, PLU 876536, Qty 1, $56.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493884: Transaction #171352, PLU 79655, Qty 1, $79.79
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493885: Transaction #52884, PLU 42824, Qty 1, $38.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493886: Transaction #8482, PLU 62777, Qty 1, $6.89
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493887: Transaction #98773, PLU 6248, Qty 1, $9.89 (10.0% off)
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493888: Transaction #26039, PLU 37741, Qty 1, $31.30 (5.0% off)
+2026-02-01 06:40:53 - TransactionLineGenerator - INFO - ✓ Created line #493889: Transaction #144199, PLU 81968, Qty 1, $13.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493890: Transaction #88446, PLU 8311, Qty 5, $214.45
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493891: Transaction #94985, PLU 91205, Qty 1, $6.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493892: Transaction #29509, PLU 202073, Qty 1, $4.99
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493893: Transaction #73399, PLU 5141, Qty 1, $72.95
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493894: Transaction #78307, PLU 2652, Qty 1, $30.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493895: Transaction #118188, PLU 2562, Qty 1, $60.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493896: Transaction #58407, PLU 29685, Qty 9, $521.55
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493897: Transaction #78685, PLU 527445, Qty 1, $124.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493898: Transaction #70792, PLU 34562, Qty 1, $11.69
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493899: Transaction #151438, PLU 39684, Qty 4, $22.76
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493900: Transaction #81918, PLU 87982, Qty 1, $25.99
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493901: Transaction #61791, PLU 73318, Qty 1, $80.99
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493902: Transaction #5263, PLU 662467, Qty 5, $898.95
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493903: Transaction #66080, PLU 471059, Qty 1, $54.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493904: Transaction #180793, PLU 36439, Qty 1, $20.69
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493905: Transaction #109698, PLU 42400, Qty 1, $38.95
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493906: Transaction #65223, PLU 15585, Qty 1, $36.79
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493907: Transaction #161585, PLU 54257, Qty 3, $143.07
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493908: Transaction #197558, PLU 27567, Qty 2, $159.58
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493909: Transaction #103435, PLU 981743, Qty 1, $75.99
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493910: Transaction #175168, PLU 94108, Qty 1, $20.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493911: Transaction #6972, PLU 55711, Qty 1, $48.69
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493912: Transaction #172799, PLU 5382, Qty 10, $886.90
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493913: Transaction #63337, PLU 57967, Qty 1, $36.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493914: Transaction #178205, PLU 602133, Qty 1, $69.79
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493915: Transaction #27274, PLU 22558, Qty 9, $204.21
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493916: Transaction #120933, PLU 8779, Qty 4, $291.16
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493917: Transaction #172133, PLU 97959, Qty 1, $65.99
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493918: Transaction #71505, PLU 8338, Qty 1, $60.49
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493919: Transaction #99032, PLU 411174, Qty 3, $191.97
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493920: Transaction #51459, PLU 72057, Qty 1, $26.95
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493921: Transaction #120650, PLU 7172, Qty 1, $49.95
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493922: Transaction #126215, PLU 108061, Qty 1, $25.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493923: Transaction #86593, PLU 227036, Qty 2, $8.98
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493924: Transaction #69661, PLU 87604, Qty 1, $21.79
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493925: Transaction #34301, PLU 150728, Qty 1, $89.69
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493926: Transaction #193023, PLU 373819, Qty 1, $22.69
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493927: Transaction #9072, PLU 16058, Qty 1, $102.95
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493928: Transaction #115006, PLU 34517, Qty 7, $755.65
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493929: Transaction #135629, PLU 38433, Qty 1, $39.89
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493930: Transaction #29573, PLU 56513, Qty 1, $37.99
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493931: Transaction #174594, PLU 946340, Qty 1, $17.99
+2026-02-01 06:40:54 - TransactionLineGenerator - INFO - ✓ Created line #493932: Transaction #19131, PLU 27042, Qty 1, $55.89
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493933: Transaction #152790, PLU 8156, Qty 1, $22.49
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493934: Transaction #73516, PLU 410042, Qty 7, $383.53
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493935: Transaction #145454, PLU 525132, Qty 2, $175.58
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493936: Transaction #119007, PLU 575, Qty 1, $37.79
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493937: Transaction #89308, PLU 889354, Qty 1, $16.69
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493938: Transaction #14129, PLU 22578, Qty 4, $325.96
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493939: Transaction #130010, PLU 9584, Qty 2, $58.98
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493940: Transaction #91530, PLU 56582, Qty 1, $89.59 (20.0% off)
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493941: Transaction #55375, PLU 524018, Qty 2, $34.00 (10.0% off)
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493942: Transaction #186956, PLU 1722, Qty 1, $41.79
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493943: Transaction #57854, PLU 120, Qty 5, $79.75
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493944: Transaction #90747, PLU 9702, Qty 3, $92.97
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493945: Transaction #154576, PLU 411174, Qty 1, $67.89
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493946: Transaction #86575, PLU 66625, Qty 4, $167.80
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493947: Transaction #122384, PLU 88374, Qty 1, $61.95
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493948: Transaction #115081, PLU 7818, Qty 1, $8.69
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493949: Transaction #26818, PLU 79928, Qty 1, $5.69
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493950: Transaction #88378, PLU 661, Qty 1, $10.79
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493951: Transaction #129331, PLU 94686, Qty 1, $4.40 (10.0% off)
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493952: Transaction #129944, PLU 3239, Qty 1, $73.99
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493953: Transaction #92261, PLU 18772, Qty 2, $29.98
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493954: Transaction #113211, PLU 2242, Qty 1, $9.49
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493955: Transaction #138027, PLU 20174, Qty 1, $4.99
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493956: Transaction #125787, PLU 369213, Qty 1, $53.69
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493957: Transaction #149609, PLU 63505, Qty 6, $94.74
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493958: Transaction #113096, PLU 3076, Qty 1, $14.69
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493959: Transaction #23292, PLU 7829, Qty 2, $33.78
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493960: Transaction #11245, PLU 814212, Qty 5, $19.45
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493961: Transaction #182609, PLU 1492, Qty 1, $27.49
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493962: Transaction #193548, PLU 53759, Qty 1, $10.69
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493963: Transaction #164602, PLU 95325, Qty 3, $37.47
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493964: Transaction #28568, PLU 7574, Qty 1, $6.69
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493965: Transaction #141007, PLU 4891, Qty 1, $81.89
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493966: Transaction #169849, PLU 776197, Qty 1, $42.89
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493967: Transaction #157992, PLU 555781, Qty 5, $423.45
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493968: Transaction #8266, PLU 68875, Qty 5, $39.95
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493969: Transaction #191272, PLU 327533, Qty 6, $226.14
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493970: Transaction #48200, PLU 35576, Qty 5, $139.75
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493971: Transaction #152101, PLU 6598, Qty 1, $44.69
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493972: Transaction #160810, PLU 13183, Qty 1, $15.86 (5.0% off)
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493973: Transaction #93775, PLU 43803, Qty 1, $19.79
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493974: Transaction #169306, PLU 34932, Qty 1, $78.49
+2026-02-01 06:40:55 - TransactionLineGenerator - INFO - ✓ Created line #493975: Transaction #82161, PLU 78740, Qty 1, $36.79
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493976: Transaction #178872, PLU 86961, Qty 1, $37.49
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493977: Transaction #143874, PLU 823258, Qty 1, $9.49
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493978: Transaction #39667, PLU 46085, Qty 1, $63.95
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493979: Transaction #37275, PLU 241717, Qty 1, $22.89
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493980: Transaction #151582, PLU 271725, Qty 3, $92.97
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493981: Transaction #88740, PLU 27624, Qty 5, $455.48 (5.0% off)
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493982: Transaction #36917, PLU 3434, Qty 1, $53.99
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493983: Transaction #104290, PLU 26782, Qty 1, $46.69
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493984: Transaction #89493, PLU 86501, Qty 5, $694.95
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493985: Transaction #135103, PLU 540, Qty 1, $116.95
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493986: Transaction #48684, PLU 62709, Qty 1, $34.79
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493987: Transaction #96919, PLU 57872, Qty 1, $143.69
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493988: Transaction #122674, PLU 7533, Qty 1, $21.79
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493989: Transaction #82512, PLU 1371, Qty 1, $38.95
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493990: Transaction #191305, PLU 47775, Qty 5, $254.45
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493991: Transaction #180956, PLU 3812, Qty 3, $113.07
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493992: Transaction #53421, PLU 7916, Qty 1, $2.79
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493993: Transaction #142735, PLU 920967, Qty 1, $53.49
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493994: Transaction #177741, PLU 80236, Qty 1, $73.69
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493995: Transaction #179722, PLU 65546, Qty 1, $27.49
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493996: Transaction #81050, PLU 1688, Qty 5, $169.45
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493997: Transaction #167313, PLU 97767, Qty 4, $251.56
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493998: Transaction #81789, PLU 547621, Qty 2, $151.90
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #493999: Transaction #19108, PLU 18226, Qty 1, $102.95
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494000: Transaction #79045, PLU 27810, Qty 1, $17.89
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494001: Transaction #176120, PLU 193250, Qty 10, $418.90
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494002: Transaction #86153, PLU 88640, Qty 1, $46.95
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494003: Transaction #39924, PLU 73776, Qty 1, $101.99
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494004: Transaction #118667, PLU 422226, Qty 10, $247.90
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494005: Transaction #149904, PLU 38946, Qty 1, $59.69
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494006: Transaction #64491, PLU 5947, Qty 5, $78.45
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494007: Transaction #160395, PLU 96605, Qty 1, $47.95
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494008: Transaction #125903, PLU 58515, Qty 1, $77.99
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494009: Transaction #52964, PLU 35576, Qty 1, $36.79
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494010: Transaction #144230, PLU 9900, Qty 1, $23.79
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494011: Transaction #128190, PLU 82101, Qty 1, $52.69
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494012: Transaction #170438, PLU 4842, Qty 1, $73.99
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494013: Transaction #114813, PLU 93235, Qty 1, $23.89
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494014: Transaction #1028, PLU 8709, Qty 5, $264.45
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494015: Transaction #100663, PLU 3405, Qty 3, $40.47
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494016: Transaction #111655, PLU 52218, Qty 1, $50.79
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494017: Transaction #169076, PLU 414331, Qty 1, $30.95
+2026-02-01 06:40:56 - TransactionLineGenerator - INFO - ✓ Created line #494018: Transaction #186510, PLU 40532, Qty 1, $17.49
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494019: Transaction #110018, PLU 75771, Qty 1, $62.99
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494020: Transaction #74030, PLU 899, Qty 1, $45.79
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494021: Transaction #118948, PLU 68367, Qty 1, $51.81 (15.0% off)
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494022: Transaction #141090, PLU 696743, Qty 1, $34.69
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494023: Transaction #196070, PLU 2813, Qty 1, $4.95
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494024: Transaction #185176, PLU 7786, Qty 1, $107.79
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494025: Transaction #33531, PLU 534267, Qty 1, $17.95
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494026: Transaction #28462, PLU 663, Qty 1, $50.69
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494027: Transaction #104463, PLU 105191, Qty 1, $62.69
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494028: Transaction #90008, PLU 4443, Qty 2, $33.98
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494029: Transaction #70012, PLU 5121, Qty 1, $49.69
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494030: Transaction #159588, PLU 90293, Qty 4, $142.76
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494031: Transaction #49019, PLU 97869, Qty 5, $229.95
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494032: Transaction #112803, PLU 222, Qty 3, $152.07
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494033: Transaction #126686, PLU 315505, Qty 6.0, $107.70
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494034: Transaction #115506, PLU 478836, Qty 1, $32.69
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494035: Transaction #67695, PLU 40776, Qty 3, $110.85
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494036: Transaction #43616, PLU 1350, Qty 4, $202.76
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494037: Transaction #28351, PLU 49268, Qty 1, $80.95
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494038: Transaction #188698, PLU 23193, Qty 1, $113.99
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494039: Transaction #107110, PLU 8365, Qty 1, $46.89
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494040: Transaction #150458, PLU 4232, Qty 6, $254.94
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494041: Transaction #82652, PLU 47704, Qty 5, $373.45
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494042: Transaction #128974, PLU 1617, Qty 1, $46.99
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494043: Transaction #122568, PLU 815490, Qty 1, $26.99
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494044: Transaction #29982, PLU 97187, Qty 7, $116.83
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494045: Transaction #158395, PLU 3187, Qty 1, $69.69
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494046: Transaction #142436, PLU 44367, Qty 1, $60.49
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494047: Transaction #73465, PLU 25482, Qty 1, $37.99
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494048: Transaction #37259, PLU 56109, Qty 1, $80.95
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494049: Transaction #174660, PLU 91003, Qty 1, $109.95
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494050: Transaction #163835, PLU 447332, Qty 1, $77.79
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494051: Transaction #4742, PLU 302739, Qty 2, $58.80 (5.0% off)
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494052: Transaction #6791, PLU 769433, Qty 5, $262.45
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494053: Transaction #93234, PLU 77781, Qty 1, $66.95
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494054: Transaction #164122, PLU 62094, Qty 1, $5.79
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494055: Transaction #80548, PLU 753380, Qty 1, $16.99
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494056: Transaction #163170, PLU 8973, Qty 1, $31.69
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494057: Transaction #16277, PLU 65424, Qty 2, $27.90
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494058: Transaction #29458, PLU 748455, Qty 1, $21.49
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494059: Transaction #49433, PLU 2952, Qty 1, $9.69
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494060: Transaction #38275, PLU 24918, Qty 1, $50.99
+2026-02-01 06:40:57 - TransactionLineGenerator - INFO - ✓ Created line #494061: Transaction #166193, PLU 82691, Qty 1, $34.89
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494062: Transaction #71381, PLU 87305, Qty 4, $355.16
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494063: Transaction #71113, PLU 2030, Qty 1, $52.69
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494064: Transaction #63442, PLU 76974, Qty 1, $3.49
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494065: Transaction #43253, PLU 75734, Qty 2, $131.78
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494066: Transaction #171064, PLU 53017, Qty 10, $424.90
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494067: Transaction #175263, PLU 8479, Qty 1, $7.99
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494068: Transaction #173780, PLU 51557, Qty 1, $37.89
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494069: Transaction #57316, PLU 850273, Qty 4, $187.56
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494070: Transaction #37283, PLU 18607, Qty 1, $61.69
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494071: Transaction #163559, PLU 5717, Qty 1, $36.99
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494072: Transaction #179399, PLU 49176, Qty 1, $32.99
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494073: Transaction #189229, PLU 799022, Qty 1, $19.49
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494074: Transaction #172580, PLU 82635, Qty 1, $48.99
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494075: Transaction #109979, PLU 48402, Qty 1, $9.95
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494076: Transaction #43248, PLU 905279, Qty 1, $95.69
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494077: Transaction #60661, PLU 739173, Qty 1, $59.79
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494078: Transaction #121592, PLU 22054, Qty 1, $21.79
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494079: Transaction #74107, PLU 53697, Qty 1, $29.99
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494080: Transaction #51474, PLU 486475, Qty 1, $61.49
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494081: Transaction #159527, PLU 93881, Qty 1, $7.49
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494082: Transaction #8564, PLU 900504, Qty 4, $34.16 (5.0% off)
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494083: Transaction #146799, PLU 472647, Qty 4, $303.16
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494084: Transaction #131217, PLU 9753, Qty 4, $201.96
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494085: Transaction #114081, PLU 93776, Qty 1, $3.49
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494086: Transaction #46489, PLU 19150, Qty 1, $4.49
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494087: Transaction #65218, PLU 5175, Qty 1, $36.95
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494088: Transaction #170705, PLU 428425, Qty 1, $24.79
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494089: Transaction #28430, PLU 734618, Qty 1, $12.69
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494090: Transaction #91403, PLU 11030, Qty 1, $88.99
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494091: Transaction #32694, PLU 8120, Qty 1, $63.99
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494092: Transaction #63448, PLU 18139, Qty 1, $43.79
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494093: Transaction #18444, PLU 13642, Qty 1, $25.95
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494094: Transaction #58621, PLU 46533, Qty 1, $97.79
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494095: Transaction #154106, PLU 8976, Qty 1, $28.95
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494096: Transaction #176514, PLU 62837, Qty 1, $11.89
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494097: Transaction #37104, PLU 700032, Qty 1, $23.79
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494098: Transaction #87104, PLU 63695, Qty 1, $57.79
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494099: Transaction #71057, PLU 84945, Qty 1, $88.79
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494100: Transaction #51757, PLU 27610, Qty 1, $36.49
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494101: Transaction #51507, PLU 1198, Qty 1, $59.95
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494102: Transaction #118886, PLU 5726, Qty 1, $70.01 (10.0% off)
+2026-02-01 06:40:58 - TransactionLineGenerator - INFO - ✓ Created line #494103: Transaction #78100, PLU 5683, Qty 1, $26.69
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494104: Transaction #27166, PLU 56451, Qty 1, $67.49
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494105: Transaction #81780, PLU 658326, Qty 1, $30.89
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494106: Transaction #72612, PLU 711, Qty 1, $18.95
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494107: Transaction #188560, PLU 96642, Qty 4, $35.80
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494108: Transaction #187611, PLU 24158, Qty 2, $27.98
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494109: Transaction #153828, PLU 793508, Qty 2, $91.38
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494110: Transaction #121405, PLU 2256, Qty 1, $25.95
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494111: Transaction #87367, PLU 401694, Qty 1, $29.79
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494112: Transaction #186453, PLU 94987, Qty 3, $29.67
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494113: Transaction #15932, PLU 23114, Qty 1, $84.79
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494114: Transaction #93620, PLU 741695, Qty 9, $62.91
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494115: Transaction #58848, PLU 114387, Qty 1, $22.49
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494116: Transaction #187808, PLU 1732, Qty 1, $26.69
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494117: Transaction #134793, PLU 36587, Qty 4, $143.56
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494118: Transaction #29257, PLU 57981, Qty 1, $90.49
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494119: Transaction #104048, PLU 4399, Qty 1, $26.69
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494120: Transaction #62848, PLU 223873, Qty 1, $43.79
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494121: Transaction #187993, PLU 616341, Qty 1, $19.89
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494122: Transaction #192301, PLU 91587, Qty 1, $43.95
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494123: Transaction #171182, PLU 5334, Qty 1, $94.71 (5.0% off)
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494124: Transaction #104857, PLU 12262, Qty 1, $27.79
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494125: Transaction #76654, PLU 350067, Qty 1, $50.79
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494126: Transaction #56725, PLU 2441, Qty 1, $12.89
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494127: Transaction #119448, PLU 525132, Qty 3, $215.85
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494128: Transaction #56183, PLU 57646, Qty 1, $12.99
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494129: Transaction #76401, PLU 15555, Qty 5, $274.95
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494130: Transaction #30553, PLU 56454, Qty 1, $33.79
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494131: Transaction #26566, PLU 18644, Qty 7, $172.83
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494132: Transaction #155983, PLU 27891, Qty 1, $14.69
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494133: Transaction #39580, PLU 43022, Qty 1, $15.95
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494134: Transaction #90071, PLU 563310, Qty 1, $70.79
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494135: Transaction #43229, PLU 37991, Qty 9, $844.11
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494136: Transaction #34201, PLU 719218, Qty 1, $30.95
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494137: Transaction #166961, PLU 1146, Qty 2, $23.98
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494138: Transaction #99152, PLU 8975, Qty 1, $9.95
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494139: Transaction #116889, PLU 72527, Qty 1, $12.89
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494140: Transaction #58027, PLU 77244, Qty 1, $30.89
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494141: Transaction #21816, PLU 515548, Qty 1, $18.79
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494142: Transaction #37517, PLU 11885, Qty 1, $10.99
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494143: Transaction #163955, PLU 1927, Qty 1, $2.69
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494144: Transaction #93252, PLU 5811, Qty 7, $460.53
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494145: Transaction #73044, PLU 3039, Qty 1, $74.76 (5.0% off)
+2026-02-01 06:40:59 - TransactionLineGenerator - INFO - ✓ Created line #494146: Transaction #41818, PLU 33246, Qty 4, $323.16
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494147: Transaction #148822, PLU 46619, Qty 1, $79.89
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494148: Transaction #91061, PLU 1361, Qty 1, $56.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494149: Transaction #164399, PLU 9130, Qty 1, $13.99
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494150: Transaction #97331, PLU 5067, Qty 1, $24.95
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494151: Transaction #145809, PLU 975201, Qty 1, $65.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494152: Transaction #43265, PLU 378278, Qty 1, $83.79
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494153: Transaction #119087, PLU 79055, Qty 1, $123.95
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494154: Transaction #181, PLU 532082, Qty 1, $65.49
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494155: Transaction #79581, PLU 40337, Qty 1, $4.99
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494156: Transaction #97111, PLU 1354, Qty 1, $52.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494157: Transaction #144992, PLU 6998, Qty 1, $6.95
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494158: Transaction #177577, PLU 5108, Qty 1, $23.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494159: Transaction #178781, PLU 49702, Qty 1, $17.99
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494160: Transaction #188884, PLU 401369, Qty 1, $34.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494161: Transaction #14542, PLU 75021, Qty 1, $28.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494162: Transaction #155505, PLU 38295, Qty 1, $32.95
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494163: Transaction #117109, PLU 557334, Qty 5, $347.45
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494164: Transaction #35757, PLU 18991, Qty 1, $77.79
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494165: Transaction #111513, PLU 594505, Qty 1, $12.95
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494166: Transaction #130371, PLU 111, Qty 1, $35.99
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494167: Transaction #12140, PLU 62869, Qty 1, $26.99
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494168: Transaction #1406, PLU 42019, Qty 1, $38.79
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494169: Transaction #185112, PLU 6976, Qty 1, $144.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494170: Transaction #160141, PLU 2138, Qty 1, $81.89
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494171: Transaction #186793, PLU 2766, Qty 1, $58.49
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494172: Transaction #192907, PLU 88345, Qty 1, $88.39 (15.0% off)
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494173: Transaction #15583, PLU 218, Qty 1, $108.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494174: Transaction #41045, PLU 7285, Qty 3, $74.37
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494175: Transaction #132778, PLU 81982, Qty 1, $81.99
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494176: Transaction #21677, PLU 11708, Qty 1, $16.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494177: Transaction #40589, PLU 80695, Qty 1, $16.49
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494178: Transaction #162926, PLU 7725, Qty 1, $29.89
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494179: Transaction #78059, PLU 62177, Qty 1, $22.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494180: Transaction #84866, PLU 37582, Qty 1, $49.79
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494181: Transaction #104823, PLU 420334, Qty 1, $32.69
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494182: Transaction #78174, PLU 79519, Qty 1, $7.89
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494183: Transaction #81767, PLU 96647, Qty 6, $226.14
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494184: Transaction #4148, PLU 7947, Qty 1, $20.99
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494185: Transaction #17263, PLU 63494, Qty 3, $206.67
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494186: Transaction #6055, PLU 15926, Qty 1, $58.49 (10.0% off)
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494187: Transaction #100671, PLU 459296, Qty 4, $139.80
+2026-02-01 06:41:00 - TransactionLineGenerator - INFO - ✓ Created line #494188: Transaction #3873, PLU 849977, Qty 4, $98.76
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494189: Transaction #59173, PLU 90478, Qty 1, $39.89
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494190: Transaction #18699, PLU 77307, Qty 1, $29.49
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494191: Transaction #35511, PLU 63474, Qty 1, $11.95
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494192: Transaction #57349, PLU 4170, Qty 1, $18.79
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494193: Transaction #96599, PLU 65056, Qty 2, $43.98
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494194: Transaction #122831, PLU 607843, Qty 3, $44.67
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494195: Transaction #79622, PLU 6768, Qty 5, $34.95
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494196: Transaction #53484, PLU 60177, Qty 1, $23.89
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494197: Transaction #71579, PLU 76184, Qty 1, $22.95
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494198: Transaction #70756, PLU 5175, Qty 1, $33.99
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494199: Transaction #129413, PLU 922, Qty 1, $30.69
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ✓ Created line #494200: Transaction #101266, PLU 4779, Qty 1, $10.99
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ============================================================
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - Generation Summary for TRANSACTION_LINE
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - Batch Size: 500
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - Successfully Generated: 500
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - Failed: 0
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - Success Rate: 100.0%
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ============================================================
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - Total transaction lines in database: 494200
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - Transactions with line items: 141132/197680
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - TRANSACTION LINE GENERATOR FINISHED
+2026-02-01 06:41:01 - TransactionLineGenerator - INFO - ============================================================
+2026-02-01 06:41:01 - MasterRunner - INFO - ✓ Transaction Lines completed successfully
+2026-02-01 06:41:01 - MasterRunner - INFO - ============================================================
+2026-02-01 06:41:01 - MasterRunner - INFO - MASTER RUNNER SUMMARY
+2026-02-01 06:41:01 - MasterRunner - INFO - ============================================================
+2026-02-01 06:41:01 - MasterRunner - INFO - Total Scripts: 10
+2026-02-01 06:41:01 - MasterRunner - INFO - Successful: 5
+2026-02-01 06:41:01 - MasterRunner - INFO - Failed: 5
+2026-02-01 06:41:01 - MasterRunner - WARNING - Failed scripts:
+2026-02-01 06:41:01 - MasterRunner - WARNING -   - Categories
+2026-02-01 06:41:01 - MasterRunner - WARNING -   - Machines
+2026-02-01 06:41:01 - MasterRunner - WARNING -   - Payment Methods
+2026-02-01 06:41:01 - MasterRunner - WARNING -   - Transaction Types
+2026-02-01 06:41:01 - MasterRunner - WARNING -   - Product Groups
+2026-02-01 06:41:01 - MasterRunner - INFO - ============================================================
