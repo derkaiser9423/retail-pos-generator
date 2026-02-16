@@ -3,14 +3,14 @@
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![SQLite](https://img.shields.io/badge/sqlite-3-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-orange.svg)
-![Total Records](https://img.shields.io/badge/records-834,135-brightgreen)
-![Database Size](https://img.shields.io/badge/size-86.8MB-blue)
+![Total Records](https://img.shields.io/badge/records-834,860-brightgreen)
+![Database Size](https://img.shields.io/badge/size-86.86MB-blue)
 
 ![Data Generation](https://github.com/derkaiser9423/retail-pos-generator/actions/workflows/data-generation.yml/badge.svg)
 ![Tests](https://github.com/derkaiser9423/retail-pos-generator/actions/workflows/test-generators.yml/badge.svg)
 ![Database Backup](https://github.com/derkaiser9423/retail-pos-generator/actions/workflows/database-backup.yml/badge.svg)
 
-> **Last Updated:** 2026-02-16 01:23:56 UTC  
+> **Last Updated:** 2026-02-16 04:18:15 UTC  
 > **24h Growth:** +725 records
 
 Automated data generation system for a retail pharmacy POS database. Generates realistic transaction data, products, staff, and more using scheduled Python scripts with **GitHub Actions automation**.
@@ -23,9 +23,9 @@ Automated data generation system for a retail pharmacy POS database. Generates r
 
 | Metric | Value |
 |--------|-------|
-| 📦 **Total Records** | **834,135** |
-| 💾 **Database Size** | **86.8 MB** |
-| 📅 **Last Updated** | February 16, 2026 at 01:23 UTC |
+| 📦 **Total Records** | **834,860** |
+| 💾 **Database Size** | **86.86 MB** |
+| 📅 **Last Updated** | February 16, 2026 at 04:18 UTC |
 | 📈 **24h Growth** | +725 records |
 | 🤖 **Status** | ![Active](https://img.shields.io/badge/status-generating-success) |
 
@@ -35,15 +35,15 @@ Automated data generation system for a retail pharmacy POS database. Generates r
 │ Table                   │ Records                      │
 ├─────────────────────────┼──────────────────────────────┤
 │ 📊 Categories           │  257                           │
-│ 🏢 Suppliers            │  3,537                         │
-│ 👥 Staff                │  2,358                         │
+│ 🏢 Suppliers            │  3,540                         │
+│ 👥 Staff                │  2,360                         │
 │ 🖥️ Machines             │  15                            │
 │ 💳 Payment Methods      │  18                            │
 │ 📋 Transaction Types    │  12                            │
 │ 🏷️ Product Groups       │  818                           │
-│ 📦 Products             │  23,240                        │
-│ 🧾 Transaction Headers  │ ████████ 229,680               │
-│ 📝 Transaction Lines    │ ████████████████████ 574,200   │
+│ 📦 Products             │  23,260                        │
+│ 🧾 Transaction Headers  │ ████████ 229,880               │
+│ 📝 Transaction Lines    │ ████████████████████ 574,700   │
 └─────────────────────────┴──────────────────────────────┘
 ```
 
@@ -51,17 +51,17 @@ Automated data generation system for a retail pharmacy POS database. Generates r
 ```
 📈 Growth Trend (Last 20 data points)
 
-  834135 |                   █
-  832758 |                  ██
-  831380 |                ████
-  830002 |              ██████
-  828625 |            ████████
-  827248 |          ██████████
-  825870 |        ████████████
-  824492 |      ██████████████
-  823115 |    ████████████████
-  821738 |  ██████████████████
-  820360 |████████████████████
+  834860 |                   █
+  833482 |                  ██
+  832105 |                ████
+  830728 |              ██████
+  829350 |            ████████
+  827972 |          ██████████
+  826595 |        ████████████
+  825218 |      ██████████████
+  823840 |    ████████████████
+  822462 |  ██████████████████
+  821085 |████████████████████
          +────────────────────
 ```
 
@@ -82,11 +82,11 @@ Automated data generation system for a retail pharmacy POS database. Generates r
 ### What Gets Generated Every 2 Hours:
 
 - ✅ 257 Categories (+ 2 per run)
-- ✅ 3,537 Suppliers (+ 3 per run)
-- ✅ 2,358 Staff members (+ 2 per run)
-- ✅ 23,240 Products (+ 10 per run)
-- ✅ 229,680 Transactions (+ 20 per run)
-- ✅ 574,200 Transaction lines (+ 50 per run)
+- ✅ 3,540 Suppliers (+ 3 per run)
+- ✅ 2,360 Staff members (+ 2 per run)
+- ✅ 23,260 Products (+ 10 per run)
+- ✅ 229,880 Transactions (+ 20 per run)
+- ✅ 574,700 Transaction lines (+ 50 per run)
 
 ---
 
@@ -192,7 +192,7 @@ retail-pos-generator/
 ├── validate_database.py         # Schema validator
 ├── config.py                    # Configuration
 ├── utils.py                     # Helper functions
-├── retail_pos.db                # SQLite database (86.8 MB)
+├── retail_pos.db                # SQLite database (86.86 MB)
 ├── stats_history.json           # Statistics history
 ├── requirements.txt             # Dependencies
 └── README.md                    # This file (auto-updated!)
@@ -266,9 +266,9 @@ python validate_database.py       # Validate schema
 4. Download `retail-pos-database-run-XXX`
 
 ### Current Stats:
-- **Records:** 834,135
-- **Size:** 86.8 MB
-- **Last Updated:** 2026-02-16 01:23 UTC
+- **Records:** 834,860
+- **Size:** 86.86 MB
+- **Last Updated:** 2026-02-16 04:18 UTC
 
 ---
 
@@ -332,6 +332,6 @@ MIT License - see [LICENSE](LICENSE) file
 
 *Generating realistic retail data 24/7 in the cloud*
 
-**Current Status:** 834,135 records | 86.8 MB | Growing every 2 hours
+**Current Status:** 834,860 records | 86.86 MB | Growing every 2 hours
 
 </div>
